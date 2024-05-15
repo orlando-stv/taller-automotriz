@@ -19,10 +19,12 @@
 }
 
 .class_botton {
+
   display: flex;
-  gap: 150px;
+  gap: 100px;
   list-style: none;
   margin: 50px;
+  text-align: center;
 
 }
 
@@ -33,6 +35,7 @@
 }
 
 .botton_disign {
+  
   text-decoration: none;
   background-color: #7e4400;
   padding: 10px;
