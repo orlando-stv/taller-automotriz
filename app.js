@@ -18,7 +18,12 @@ console.log("Resultado: " + resultado2); */
 function suma() {
     a = parseInt(prompt("ingrese 1er valor"));
     b = parseInt(prompt("ingrese 2do valor"));
-    return (a + b);
+    if (a >= 0 && b <= 10) {
+        return (a + b);
+    } else {
+        alert ("ingrese valor entre 0 y 10");
+    }
+
 }
 
 const resultado = suma();
