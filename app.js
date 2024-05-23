@@ -17,12 +17,12 @@ console.log("Resultado: " + resultado2); */
 
 function suma() {
     
-    a = Number(prompt("ingrese 1er valor"));
-    b = Number(prompt("ingrese 2do valor"));
+    a = Number(prompt("ingrese 1er valor del 0 al 10"));
+    b = Number(prompt("ingrese 2do valor del 0 al 10"));
     if (a >= 0 && b <= 10) {
         return (a + b);
     } else {
-        alert ("ingrese valor entre 0 y 10");
+        alert ("valores incorrectos");
     }
 
 }
